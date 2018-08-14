@@ -1,9 +1,8 @@
 package chm
 
-class Familym {
-    long family_id
+class Child {
     String name
-    Date birth_date
+    Date birthdate
     String mobile
 
     static belongsTo = [family:Family]

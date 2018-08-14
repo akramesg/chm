@@ -1,9 +1,9 @@
 package chm
 
-import grails.testing.gorm.DomainUnitTest
+import grails.testing.web.controllers.ControllerUnitTest
 import spock.lang.Specification
 
-class FamilymSpec extends Specification implements DomainUnitTest<Familym> {
+class FamilyTestControllerSpec extends Specification implements ControllerUnitTest<FamilyTestController> {
 
     def setup() {
     }
